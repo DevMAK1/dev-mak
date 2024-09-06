@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+html {
+    scroll-padding: 5rem;
+}
+
+
+* {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 500px;
+}
+
+nav a {
+    color: black;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+nav a:hover {
+    color: #016e8f;
+}
+
+section {
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #016e8f;
+    min-height: 100vh;
+}
+
+.main h1 {
+    color: #9fb9b3;
+    font-size: 1.6em;
+}
+
+.main span {
+    font-size: 2.7em;
+    color: #00a189;
+    display: block;
+
+}
+
+.head-icons {
+    display: flex;
+    gap: 1em;
+}
+
+.head-icons a {
+    font-size: 2em;
+    color: #f0972d;
+}
+
+.head-icons a:hover {
+    transition: 0.07s ease;
+    transform: scale(1.2);
+}
+
+.title {
+    color: #9fb9b3;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.colored{
+    color: #00614e;
+}
+
+.category{
+    color: #00614e;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.category:hover{
+    color: #f0972d;
+}
+
+.about p {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 30px 50px;
+}
+
+.contact{
+    background-color: #016e8f;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    margin: 40px;
+}
+.contact-card{
+    /* for card */
+    box-shadow: 0 5px 25px black;
+    background-color: #67b5d9;
+    min-height: 6em;
+    width: 18em;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    
+}
+
+.contact-card:hover{
+    transform: scale(1.1);
+}
+
+.contact-title {
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 2em;
+}
+
+.email{
+    color: #8b8b8b;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.thanks h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+footer {
+    background-color: #016e8f;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+footer span {
+    color: #00a189;
+}
+
+.foot-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.foot-icons a {
+    color: #f0972d;
+    font-size: 1.7em;
+}
+
+.foot-icons a:hover {
+    transition: 0.07s ease;
+    transform: scale(1.2);
+}
